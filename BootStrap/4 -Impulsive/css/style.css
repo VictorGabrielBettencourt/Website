@@ -1,0 +1,25 @@
+/* inico */
+#home{
+    background: #0d6efd;
+    min-height: 600px;
+}
+
+/* cartão */
+.card{
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transform: scale(1.1);
+}
+
+/* botões */
+.btn{
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
